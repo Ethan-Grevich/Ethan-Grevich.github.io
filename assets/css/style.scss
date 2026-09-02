@@ -1,0 +1,248 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+  --bg-1: #090b16;
+  --bg-2: #161b32;
+  --bg-3: #2a1638;
+  --panel: rgba(17, 20, 35, 0.74);
+  --panel-strong: rgba(14, 17, 29, 0.92);
+  --panel-soft: rgba(255, 255, 255, 0.045);
+  --text: #edf3ff;
+  --muted: #c9d5f8;
+  --accent: #ff7eb6;
+  --accent-2: #7ae7c7;
+  --accent-3: #ffd166;
+  --border: rgba(255, 255, 255, 0.14);
+  --shadow: 0 22px 50px rgba(0, 0, 0, 0.35);
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(122, 231, 199, 0.18), transparent 30%),
+    radial-gradient(circle at top right, rgba(255, 126, 182, 0.22), transparent 35%),
+    linear-gradient(135deg, var(--bg-1) 0%, var(--bg-2) 40%, var(--bg-3) 100%);
+  color: var(--text);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.page-header {
+  background: linear-gradient(135deg, rgba(255,126,182,0.18), rgba(122,231,199,0.15), rgba(255,209,102,0.12));
+  border-bottom: 1px solid var(--border);
+  box-shadow: inset 0 -1px 0 rgba(255,255,255,0.06);
+}
+
+.page-header .project-name {
+  font-size: 2.4rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff7fb;
+}
+
+.page-header .project-tagline {
+  color: rgba(237, 243, 255, 0.82);
+  max-width: 720px;
+}
+
+.main-content {
+  max-width: 1100px;
+  padding: 3rem 1.4rem 4rem;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3 {
+  color: var(--text);
+  letter-spacing: -0.03em;
+}
+
+.main-content h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.main-content h2 {
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.main-content p,
+.main-content li {
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.main-content a {
+  color: var(--accent-2);
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.main-content a:hover {
+  opacity: 0.85;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 0 0 2.25rem;
+}
+
+.hero-copy,
+.hero-card,
+.card,
+.note-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+}
+
+.hero-copy {
+  padding: 2.1rem 2rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.8rem;
+  color: var(--accent-3);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.hero-copy h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  line-height: 1.05;
+}
+
+.hero-copy p {
+  font-size: 1.06rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.9rem 1.3rem;
+  border-radius: 999px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.button.primary {
+  background: linear-gradient(135deg, var(--accent), #ff9bbc);
+  color: #1e1020;
+}
+
+.button.secondary {
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.hero-card {
+  padding: 1.5rem 1.4rem;
+}
+
+.hero-card h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.hero-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-card li {
+  position: relative;
+  padding-left: 1.2rem;
+  margin-bottom: 0.7rem;
+  color: var(--muted);
+}
+
+.hero-card li::before {
+  content: "✦";
+  position: absolute;
+  left: 0;
+  color: var(--accent-2);
+}
+
+.grid,
+.note-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.2rem;
+}
+
+.card,
+.note-card {
+  padding: 1.3rem 1.2rem;
+}
+
+.tag {
+  display: inline-block;
+  margin-bottom: 0.8rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid rgba(122,231,199,0.35);
+  border-radius: 999px;
+  background: rgba(122,231,199,0.08);
+  color: var(--accent-2);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.card h3,
+.note-card h3 {
+  margin: 0 0 0.7rem;
+}
+
+.card p,
+.note-card p {
+  margin: 0;
+}
+
+blockquote {
+  padding: 1rem 1.2rem;
+  border-left: 4px solid var(--accent-3);
+  background: rgba(255, 209, 102, 0.08);
+  border-radius: 10px;
+  color: #fff6d7;
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .main-content {
+    padding-top: 2rem;
+  }
+
+  .page-header .project-name {
+    font-size: 1.7rem;
+  }
+}

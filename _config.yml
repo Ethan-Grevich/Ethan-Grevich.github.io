@@ -1,5 +1,11 @@
-title: My Wrangler Studios Portfolio
-description: This is my portfolio showcasing my projects and skills.
+title: Dementius Alzheimer
+description: Portfolio, projects, and ideas in science, math, and creative exploration.
 baseurl: ""
 url: "https://eg1966980.github.io"
-theme: jekyll-theme-cayman # replace “merlot” with your chosen theme from the list
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: assets/css
+  style: compressed
