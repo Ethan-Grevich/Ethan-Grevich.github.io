@@ -3,6 +3,10 @@ layout: default
 title: Dementius Alzheimer
 ---
 
+<head>
+  <link rel="stylesheet" href="{{ "/eg1966980.github.io/assets/css/custom.css" | relative_url }}">
+</head>
+
 <div class="hero">
   <div class="hero-copy">
     <div class="status-bar">

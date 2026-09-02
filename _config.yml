@@ -1,7 +1,7 @@
 title: Dementius Alzheimer
 description: Portfolio, projects, and ideas in science, math, and creative exploration with a bold game-inspired aesthetic.
-baseurl: ""
-url: "https://eg1966980.github.io"
+baseurl: "/eg1966980.github.io"
+url: "https://ethan-grevich.github.io"
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
