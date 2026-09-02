@@ -16,6 +16,6 @@ This notebook is a space for ideas, reflections, and progress.
 The goal is to keep learning with intention and curiosity. I want my work to balance academic growth with personal creativity and practical problem-solving.
 
 ## Navigation
-- [Home](index.md)
-- [About Me](about.md)
+- [Home]({{ "/eg1966980.github.io/" | relative_url }})
+- [About Me]({{ "/eg1966980.github.io/about" | relative_url }})
 
