@@ -1,3 +1,8 @@
+---
+layout: default
+title: Notebook
+---
+
 # Notebook
 
 This notebook is a space for ideas, reflections, and progress.

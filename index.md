@@ -1,3 +1,8 @@
+---
+layout: default
+title: Dementius Alzheimer
+---
+
 <div class="hero">
   <div class="hero-copy">
     <div class="status-bar">

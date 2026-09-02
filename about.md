@@ -1,3 +1,8 @@
+---
+layout: default
+title: About Me
+---
+
 # About Me
 
 Hello! I am Alzheimer, and I am fascinated by the way math, science, and human understanding connect. My interests include math and biomedical studies, and I enjoy exploring subjects that can be reasoned through clearly and proven with evidence.
