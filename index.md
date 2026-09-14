@@ -72,12 +72,12 @@ title: Dementius Alzheimer
     <span class="tag">Profile</span>
     <h3>About Me</h3>
     <p>Learn more about the path, goals, and interests behind this portfolio.</p>
-    <p><a href="https://ethan-grevich.github.io/eg1966980.github.io/about">Open profile →</a></p>
+    <p><a href="https://ethan-grevich.github.io/about">Open profile →</a></p>
   </div>
   <div class="note-card">
     <span class="tag">Journal</span>
     <h3>Notebook</h3>
     <p>Browse notes, ideas, and experiments that connect science and creative thinking.</p>
-    <p><a href="https://ethan-grevich.github.io/eg1966980.github.io/notebook">Open notebook →</a></p>
+    <p><a href="https://ethan-grevich.github.io/notebook">Open notebook →</a></p>
   </div>
 </div>
