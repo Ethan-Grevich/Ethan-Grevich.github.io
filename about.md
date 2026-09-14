@@ -16,5 +16,5 @@ My hobbies include piano and volleyball. Volleyball is especially meaningful to 
 I believe project management and communication will be some of the most useful skills I gain from my coursework because they are essential in the medical field. The CTSO that best fits my career goals is HOSA. I am still learning more about the competitions and opportunities that will best prepare me for the future.
 
 ## Navigation
-- [Home](https://ethan-grevich.github.io/eg1966980.github.io/)
-- [Notebook](https://ethan-grevich.github.io/eg1966980.github.io/notebook)
+- [Home](https://ethan-grevich.github.io)
+- [Notebook](https://ethan-grevich.github.io)
