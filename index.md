@@ -51,8 +51,9 @@ title: Dementius Alzheimer
 <div class="grid">
   <div class="card">
     <span class="tag">Project 01</span>
-    <h3>Creative Exploration</h3>
-    <p>Exploring ideas, design, and the intersection of curiosity with technical skill.</p>
+    <h3>Recursion Visualizer</h3>
+    <p>Explore recursive calls step by step with an animated call tree, call stack, and examples.</p>
+    <p><a href="{{ '/project-1/' | relative_url }}">View Project 1 →</a></p>
   </div>
   <div class="card">
     <span class="tag">Project 02</span>
