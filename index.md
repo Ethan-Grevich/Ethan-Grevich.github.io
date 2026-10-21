@@ -51,9 +51,9 @@ title: Dementius Alzheimer
 <div class="grid">
   <div class="card">
     <span class="tag">Project 01</span>
-    <h3>Recursion Visualizer</h3>
+    <h3>Java Recursion</h3>
     <p>Explore recursive calls step by step with an animated call tree, call stack, and examples.</p>
-    <p><a href="{{ '/project-1/' | relative_url }}">View Project 1 →</a></p>
+    <p><a href="https://github.com/Ethan-Grevich/Ethan-Grevich.github.io/blob/main/Project.java">View the code →</a></p>
   </div>
   <div class="card">
     <span class="tag">Project 02</span>
